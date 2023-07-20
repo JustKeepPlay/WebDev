@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Prompt:wght@300&family=Sansita+Swashed:wght@300&family=Sarabun:ital@1&family=Varela+Round&display=swap');
+
+:root{
+    --light-gray:#575757;
+    --primary-color:#ffa53e;
+    --border:#2b203218;
+    --text-color:#ff686b;
+    --Sarabun:"Sarabun",sans-serif;
+    --Pattaya:"Pattaya",cursive;
+    --Prompt:"Prompt",cursive;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color:var(--primary-color);
+}
+.text-color{
+    color:var(--text-color);
+}
+
+.font-Sarabun{
+    font-family: var(--Sarabun);
+}
+
+.font-Pattaya{
+    font-family: var(--Pattaya);
+}
+
+.font-Prompt{
+    font-family: var(--Prompt);
+}
+
+.lightblue{
+    color:lightblue;
+}
+header{
+    background-color: var(--primary-color);
+    font-family: var(--Sarabun);
+}
+header .site-title{
+    font-family: var(--Pattaya);
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: var(--light-gray);
+}
+
+.navbar-nav .nav-item .nev-link{
+    padding: 0 1.3em;
+
+}
+
+.navbar.nav .basket-icon{
+    margin-right:6.5rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
